@@ -4,6 +4,11 @@ import datetime
 import time
 import smtplib
 from email.mime.text import MIMEText
+import os
+EMAIL = os.getenv("EMAIL")
+APP_PASSWORD = os.getenv("APP_PASSWORD")
+TO_EMAIL = os.getenv("TO_EMAIL")
+
 
 # --- CONFIG ---
 ETORO_PRICE_MANUAL = 93187.39  # Update this manually or fetch via API if available
