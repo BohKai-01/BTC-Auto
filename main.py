@@ -7,8 +7,8 @@ from email.mime.text import MIMEText
 
 # --- CONFIG ---
 ETORO_PRICE_MANUAL = 93187.39  # Update this manually or fetch via API if available
-EMAIL = "youremail@gmail.com"
-APP_PASSWORD = "your-app-password"
+EMAIL = "jahboh123@gmail.com"
+APP_PASSWORD = "gkwi dagy khuh ykxa"
 TO_EMAIL = EMAIL  # Change if sending to different address
 
 # --- Fetch BTC Price Data from CoinGecko ---
